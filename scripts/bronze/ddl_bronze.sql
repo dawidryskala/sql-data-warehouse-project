@@ -11,9 +11,9 @@ Script Purpose:
 
 IF OBJECT_ID ('bronze.crm_cust_info', 'U') IS NOT NULL
 	DROP TABLE bronze.crm_cust_info;
-	--'U'	User Table (tabela użytkownika)
+	--'U'	User Table
 	--'P'	Stored Procedure
-	--'V'	View (widok)
+	--'V'	View
 	--'FN'	Scalar Function
 	--'IF'	Inline Table-Valued Function
 	--'TF'	Table-Valued Function
