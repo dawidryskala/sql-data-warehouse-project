@@ -56,45 +56,13 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 ## 🏗️ Data Architecture
 
-[data_architecture.pdf](https://github.com/user-attachments/files/21171285/data_architecture.pdf)
+![Data Architecture](docs/data_architecture.pdf)
 
-The data architecture for this project follows **Medallion Architecture**:  
-**Bronze**, **Silver**, and **Gold** layers:
+The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
 
-### Sources → Data Warehouse → Consume
-
-**Sources**:  
-- CRM, ERP systems  
-- Object Type: CSV Files  
-- Interface: Files in Folders  
-
----
-
-### 🔶 Bronze Layer
-- **Description**: Stores raw data *as-is* from the source systems.  
-- **Load**:  
-  - Batch Processing  
-  - Full Load  
-  - Truncate & Insert  
-- **Transformations**: None  
-- **Data Model**: None (as-is)  
-- **Storage**: Tables in SQL Server  
-
----
-
-### ⚪ Silver Layer
-- **Description**: Cleansed and standardized data.  
-- **Load**:  
-  - Batch Processing  
-  - Full Load  
-  - Truncate & Insert  
-- **Transformations**:  
-  - Data Cleansing  
-  - Data Standardization  
-  - Data Normalization  
-  - Derived Columns  
-  - Data Enrichment  
-- **Data Model**: Cleaned Tables  
+1. **Bronze Layer:** Stores raw data *as-is* from the source systems. Data is ingested from CSV Files into SQL Server Database. 
+2. **Silver Layer:** This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+3. **Gold Layer:** Houses business-ready data modeled into a star schema required for reporting and analytics. 
 
 ---
 
