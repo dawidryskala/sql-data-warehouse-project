@@ -4,8 +4,28 @@ Welcome to the **Data Warehouse and Analytics Project** repository! 🚀
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project
 highlights industry best practices in data engineering and analytics.
 
+---
+
+## 📘 Project Overview
+
+This project involves:
+
+1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.  
+2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.  
+3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.  
+4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
+
+🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
+
+- SQL Development  
+- Data Architect  
+- Data Engineering  
+- ETL Pipeline Developer  
+- Data Modeling  
+- Data Analytics
 
 ---
+
 ## 🚀 Project Requirements
 
 ### Building the Data Warehouse (Data Engineering)
@@ -31,6 +51,50 @@ Develop SQL-based analytics to deliver detailed insights into:
 - **Sales Trends**
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making
+
+---
+
+## 🏗️ Data Architecture
+
+[data_architecture.pdf](https://github.com/user-attachments/files/21171285/data_architecture.pdf)
+
+The data architecture for this project follows **Medallion Architecture**:  
+**Bronze**, **Silver**, and **Gold** layers:
+
+### Sources → Data Warehouse → Consume
+
+**Sources**:  
+- CRM, ERP systems  
+- Object Type: CSV Files  
+- Interface: Files in Folders  
+
+---
+
+### 🔶 Bronze Layer
+- **Description**: Stores raw data *as-is* from the source systems.  
+- **Load**:  
+  - Batch Processing  
+  - Full Load  
+  - Truncate & Insert  
+- **Transformations**: None  
+- **Data Model**: None (as-is)  
+- **Storage**: Tables in SQL Server  
+
+---
+
+### ⚪ Silver Layer
+- **Description**: Cleansed and standardized data.  
+- **Load**:  
+  - Batch Processing  
+  - Full Load  
+  - Truncate & Insert  
+- **Transformations**:  
+  - Data Cleansing  
+  - Data Standardization  
+  - Data Normalization  
+  - Derived Columns  
+  - Data Enrichment  
+- **Data Model**: Cleaned Tables  
 
 ---
 
