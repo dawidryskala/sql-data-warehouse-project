@@ -56,7 +56,7 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 ## 🏗️ Data Architecture
 
-![Data Architecture](docs/data_architecture.pdf)
+<img width="758" height="424" alt="data_architecture" src="https://github.com/user-attachments/assets/cbf2de26-6ebb-4c84-ab2d-c5a2c2a9247d" />
 
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
 
