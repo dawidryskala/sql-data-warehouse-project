@@ -101,3 +101,12 @@ This project is licensed under [MIT License]. You are free to use, modify, and s
 ## About Me
 
 Hi there! I'm **Dawid Ryskala**. I am BI Developer | Data Analyst ...
+## 🌟 About Me
+
+Hi there! I'm **Dawid Ryskala** — a BI Developer, data analyst passionate about transforming raw data into actionable insights.  
+I enjoy working with data pipelines, reporting tools, and automation to help businesses make informed decisions.
+
+Let’s stay in touch! Feel free to connect with me on LinkedIn:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/dawidryskala/)
+
