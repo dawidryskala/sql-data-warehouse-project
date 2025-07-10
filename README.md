@@ -108,5 +108,7 @@ I enjoy working with data pipelines, reporting tools, and automation to help bus
 
 Let’s stay in touch! Feel free to connect with me on LinkedIn:
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/dawidryskala/)
+<a href="https://www.linkedin.com/in/dawidryskala/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-Dawid%20Ryskala-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn Badge"/>
+</a>
 
